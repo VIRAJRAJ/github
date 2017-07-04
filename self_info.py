@@ -1,6 +1,6 @@
 import requests
-from constant import APP_ACCESS_TOKEN, BASE_URL
-def user_info():
+from constants import APP_ACCESS_TOKEN, BASE_URL
+def self_info():
     #logic of the function
     request_url = (BASE_URL + 'users/self/?access_token=%s') % (APP_ACCESS_TOKEN)
     print 'GET request url : %s' % (request_url)
