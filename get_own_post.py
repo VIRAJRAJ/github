@@ -1,6 +1,6 @@
 import requests
 import urllib
-from constants import APP_ACCESS_TOKEN, BASE_URL
+from constants import BASE_URL, APP_ACCESS_TOKEN
 
 def get_own_post():
     #function login
